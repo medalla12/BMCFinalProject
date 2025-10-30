@@ -37,14 +37,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       // 3. A simple placeholder for our home screen
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('My E-Commerce App'),
-        ),
-        body: Center(
-          child: Text('Firebase is Connected!'),
-        ),
-      ),
+      home: LoginScreen(),
     );
   }
 }
